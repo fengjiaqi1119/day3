@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .12rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background-color: #e0e0e0; }
+
+.header {
+  height: .3rem;
+  background-color: white; }
+  .header .list {
+    height: .3rem; }
+    .header .list li {
+      width: 33.3%;
+      float: left;
+      line-height: .3rem;
+      text-align: center; }
+    .header .list li:hover {
+      color: #007aff; }
+
+.section {
+  background-color: white;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+  .section .quan {
+    height: 90px;
+    background-color: #f0f0f0;
+    margin-top: .1rem;
+    padding: 10px;
+    margin: 10px; }
+    .section .quan .top {
+      height: .45rem; }
+      .section .quan .top p a {
+        margin-top: -20px; }
+      .section .quan .top p b {
+        font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */
